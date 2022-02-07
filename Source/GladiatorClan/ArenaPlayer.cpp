@@ -2,6 +2,7 @@
 
 
 #include "ArenaPlayer.h"
+#include "PickableWeapon.h"
 
 // Sets default values
 AArenaPlayer::AArenaPlayer()

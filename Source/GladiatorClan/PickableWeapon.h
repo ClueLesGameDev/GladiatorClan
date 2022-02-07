@@ -28,7 +28,7 @@ protected:
 	class USphereComponent* MySphere;
 
 	UPROPERTY(EditAnywhere)
-	USkeletalMeshComponent* MySkeletalMesh;;
+	class USkeletalMeshComponent* MySkeletalMesh;;
 
 	UPROPERTY(EditAnywhere)
 	class UBoxComponent* DamageBox;

@@ -23,7 +23,7 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	bool AttachItemTo(USkeletalMeshComponent* RootMesh, FName SocketName);
+	bool AttachItemTo(class USkeletalMeshComponent* RootMesh, FName SocketName);
 
 	bool IsUsed;
 
